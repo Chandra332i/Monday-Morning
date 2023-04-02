@@ -1,0 +1,86 @@
+@media only screen and (max-width: 768px) {
+    *{
+
+    }
+    .container1{
+        display: block;
+    }
+    .middle-header, .last-part{
+        display: none;
+    }
+    .menu-bar{
+        display: flex;
+        position: absolute;
+        font-sisze: 2s5px;
+        right: 20px;
+    }
+    .crt-post button{
+        width: 80%;
+    }
+
+    .crt-post img{
+        width: 90px;
+        height: 40px;
+        border-radius: 50px;
+        margin-left: -40px;
+    }
+    .crt-post input{
+        width: 100%;
+    }
+    .crt-post button{
+        font-size: 15px;
+    }
+    .menu-bar li{
+        padding: 0;
+        margin: 0;
+        letter-spacing: -20px;
+    }
+    .container1 .third-c, .container1 .sec-c , .container1 .first-c{
+        width: 100%;
+    }
+    .blog-posts {
+        display: block;
+    }
+    .fav{
+        display: none;
+    }
+    .bthumb img{
+        width: 100%;
+    }
+    .tcat h3{
+        font-size: 20px;
+        width: 110%;
+        margin-left: -15px;
+        margin-top: 10px;
+    }
+    .user-sec{
+        margin-left: -10px;
+    }
+    #myLinks {
+        
+        background: #262D35;
+        box-shadow: 0 0 10px 1px #4b5560d8;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        padding:0 30px;
+    }
+    .categories{
+        margin-left: -23px;
+    }
+    .has-search{
+        width: 40px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .oth{
+        display: block;
+        
+    }
+    .msas{
+        display: flex;
+    }
+    .other_details{
+        margin-left: -10px;
+    }
+  }
